@@ -498,11 +498,11 @@ body.royal_preloader {
 /*	03: HOME SECTION STYLES
 /*-----------------------------------------------------------------------------------*/	
 /**** COLOUR FADE ****/
-.fadeone { background: #3D566E; }
-.fadetwo { background: #C42D2D; }
-.fadethree { background: #C0392B; }
-.fadefour { background: #354B60; }
-.fadefive{ background:#2A84BF; }
+.fadeone { background: #ADD8E6; }
+.fadetwo { background: #91BAD6; }
+.fadethree { background: #73A5C6; }
+.fadefour { background: #528AAE; }
+.fadefive{ background:#00008B; }
 
 .colour_block{ 
 	background:transparent;
