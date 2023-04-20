@@ -569,25 +569,25 @@ body.royal_preloader {
 }
 
 /**** HEART ****/
-.heart {
+.small-logo {
   	position: relative;
-   	width: 50px;
-  	height: 45px;
+   	width: 120px;
+  	/* height: 45px; */
   	margin: 0px auto 0px;
 	-webkit-transform-origin: center center;
 	-moz-transform-origin: center center;
 	-ms-transform-origin: center center;
 	-o-transform-origin: center center;
 }
-.heart:before,
-.heart:after { 
+.small-logo:before,
+.small-logo:after {
    position: absolute; 
   content: "";
   left: 23.5px;
   top: 0;
   width: 25px;
   height: 40px;
-  background: #E34834;
+  /* background: #E34834; */
   -moz-border-radius: 50px 50px 0 0;
   border-radius: 50px 50px 0 0;
   -webkit-transform: rotate(-45deg);
