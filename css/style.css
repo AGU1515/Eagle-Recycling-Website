@@ -165,7 +165,7 @@ h1 {
 	letter-spacing:-3px!important;
 	color: #222!important;
 	margin: 0px 0px 30px;
-	text-transform: lowercase;
+	/* text-transform: lowercase; */
 }
 h2 { font-size: 28px; }
 h3 { font-size: 24px; }
@@ -1300,3 +1300,7 @@ h1  { font-size: 60px!important; line-height:55px; letter-spacing:-1px!important
 .wallpapered h2 { font-size:32px!important; line-height:40px; margin:50% auto 0; padding:0 0; width:100%; }
 }
 
+#myChart {
+			max-width: 800px;
+			margin: 0 auto;
+		}
