@@ -49,7 +49,7 @@
 				<li><a class="scroll" href="#about">About</a></li>
 				<li><a class="scroll" href="#team">Team</a></li>
 				<li><a class="scroll" href="#work">Impact</a></li>
-				<li><a class="scroll" href="#contact">Contact</a></li>
+				<li><a class="scroll" href="#gallery">Gallery</a></li>
 			</ul>
 			<!--//MENU-->
 		<!--RESPONSIVE TOGGLE-->
@@ -217,24 +217,50 @@
 	</div>
 			
 		<!--PARALLAX WORK QUOTE-->
-			<div class="well">
-				<div class="dark_overlay">
-					<div class="container">
-				<div class="row">
-			<div class="col-sm-12 col-lg-10 col-lg-offset-1 text-center">
-				<h2 class="fadeInUp text-center quote">
-					It's art if it can't be explained. It's <strong>fashion</strong> if no one asks for an explanation. 
-					It's design if it doesn't need <strong>explanation.</strong>
-				</h2>
-				<a href="#contact" class="scroll btn wow bounceIn" data-wow-offset="80" data-wow-duration="2s">CONTACT</a>
-			<div class="pad90"></div>	
-		</div>
-			</div>
-				</div>
-			</div>
-		</div>
 		<!--//PARALLAX WORK QUOTE ENDS-->
 	</section>
+
+<section id="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-lg-12">
+				<h1 class="wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">
+					Gallery
+				</h1>
+				<!--FILTERS-->
+				<!--PORTFOLIO-->
+				<!--//END PORTFOLIO-->
+			</div>
+		<div class="slider-container">
+			<div class="slide active">
+				<img src="img/IMG_0429.jpg">
+				<div class="caption">Aditya and Ben with a recycling collector for the Tuscaloosa Environmental Services</div>
+			</div>
+			<div class="slide">
+				<img src="img/IMG_0418.jpg">
+				<div class="caption">Caption for Image 2</div>
+			</div>
+			<div class="slide">
+				<img src="img/IMG_0408.jpg">
+				<div class="caption">Caption for Image 3</div>
+			</div>
+			<div class="slide">
+				<img src="img/IMG_0410.jpg">
+				<div class="caption">Caption for Image 4</div>
+			</div>
+			<div class="slide">
+				<img src="img/IMG_0409.jpg">
+				<div class="caption">Caption for Image 5</div>
+			</div>
+
+			<div class="prev" onclick="prevSlide()">Prev</div>
+			<div class="next" onclick="nextSlide()">Next</div>
+		</div>
+
+	</div>
+		<!--PARALLAX WORK QUOTE-->
+		<!--//PARALLAX WORK QUOTE ENDS-->
+</section>
 	<!--//WORK SECTION ENDS-->
 
 	
@@ -247,60 +273,6 @@
 	<!--//BLOG POSTS-->
 
 			 <!--CONTACT SECTION STARTS-->
-				<section id="contact">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12 col-lg-12 ">
-							<h1 class="wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">
-								Contact
-							</h1>
-							
-							<div class="lead wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">
-								The largest <strong>impact</strong> is often created when individuals<strong> work together.</strong>
-							</div>
-							
-							<div class="row">
-								<div class="col-sm-6 col-lg-6  wow fadeInUp" data-wow-offset="80" data-wow-duration="2s">
-								
-								<h2>Do you have any comments or questions?</h2>
-								
-								<p>
-									Tuscaloosa Magnet Schools-Middle,<br>
-									315 McFarland Blvd E,<br>
-									Tuscaloosa, AL 35404<br>
-								</p>
-								
-								<ul class="fa-ul">
-									<li><i class="fa-li fa fa-phone inverse"></i> <span class="inverse">205 467 4786</span></li>
-									<li><i class="fa-li fa fa-envelope inverse"></i> <a href="mailto:#">aditya.gupta@tuscaloosacityschools.com OR benjamin.riches@tuscaloosacityschools.com</a></li>
-									
-								</ul>
-						</div>
-						
-						<div class="col-sm-6 col-lg-6  wow fadeInUp" data-wow-offset="80" data-wow-duration="2s">
-						<div class="contact_form">  
-							<div id="note"></div>
-							<div id="fields">
-							<form id="ajax-contact-form">
-							<input class="col-xs-12 col-md-12" type="text" name="name" value="" placeholder="Name" />
-							<input class="col-xs-12 col-md-12" type="text" name="email" value="" placeholder="Email"/>
-							<input class="col-xs-12 col-md-12" type="text" name="subject" value="" placeholder="Subject"  />
-							<textarea name="message" id="message" class="col-xs-12  col-md-12" placeholder="Message"></textarea>
-							<div class="clear"></div>
-							<input type="submit" class="btn marg-right10" value="submit" />
-							<input type="reset" class="btn" value="reset" />
-							<div class="clear"></div>
-							</form>  
-						</div>
-					</div> 
-				<!-- // End FORM -->	
-				</div>
-			</div>
-		</div>
-			</div>
-				</div>
-					<div class="pad60"></div>
-						</section>
 							<!--//END CONTACT SECTION--> 
 							
 						<!--START FOOTER--> 		
@@ -391,13 +363,13 @@
 		var ctx = document.getElementById('myChart').getContext('2d');
 
 		var data = {
-		    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+		    labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 6'],
 		    datasets: [{
-		        label: 'Bar Chart Example',
+		        label: 'Cubic Feet of Paper Recycled',
 		        backgroundColor: 'rgba(54, 162, 235, 0.5)',
 		        borderColor: 'rgba(54, 162, 235, 1)',
 		        borderWidth: 1,
-		        data: [12, 19, 3, 5, 2, 3],
+		        data: [7, 5, 13, 10, 5, 13],
 		    }]
 		};
 
@@ -425,6 +397,41 @@
 		    options: options
 		});
 	</script>
+<script>
+		var slideIndex = 0;
+		var slides = document.getElementsByClassName('slide');
+
+		showSlide(slideIndex);
+
+		function showSlide(n) {
+			if (n >= slides.length) {
+				slideIndex = 0;
+			} else if (n < 0) {
+				slideIndex = slides.length - 1;
+			} else {
+				slideIndex = n;
+			}
+
+			for (var i = 0; i < slides.length; i++) {
+				slides[i].classList.remove('active');
+			}
+
+			slides[slideIndex].classList.add('active');
+		}
+
+		function prevSlide() {
+			showSlide(slideIndex - 1);
+		}
+
+		function nextSlide() {
+			showSlide(slideIndex + 1);
+		}
+
+		setInterval(function() {
+			nextSlide();
+		}, 5000); // Change image every 5 seconds
+	</script>
+
 
 </body>
 </html>

@@ -1300,7 +1300,54 @@ h1  { font-size: 60px!important; line-height:55px; letter-spacing:-1px!important
 .wallpapered h2 { font-size:32px!important; line-height:40px; margin:50% auto 0; padding:0 0; width:100%; }
 }
 
-#myChart {
-			max-width: 800px;
+.slider-container {
+			position: relative;
+			height: 400px;
+			width: 800px;
 			margin: 0 auto;
+			overflow: hidden;
+		}
+
+		.slide {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 400px;
+			width: 800px;
+			display: none;
+		}
+
+		.slide.active {
+			display: block;
+		}
+
+		.prev, .next {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			padding: 20px;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+			cursor: pointer;
+		}
+
+		.prev {
+			left: 0;
+		}
+
+		.next {
+			right: 0;
+		}
+
+		.caption {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			padding: 10px;
+			font-size: 20px;
+			text-align: center;
+			box-sizing: border-box;
 		}
