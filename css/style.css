@@ -78,7 +78,7 @@ a {
 .marg-top-minus25 { margin-top: -25px; }
 
 /**** SECTION PADDINGS ****/
- #about, #team, #work, #price, #contact { padding-top: 80px; background:#F0F0F0; }
+ #about, #team, #work, #price, #contact, #gallery { padding-top: 80px; background:#F0F0F0; }
 section { background:#F0F0F0; }
 
 /** BUTTONS **/
