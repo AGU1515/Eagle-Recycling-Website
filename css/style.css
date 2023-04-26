@@ -1303,7 +1303,7 @@ h1  { font-size: 60px!important; line-height:55px; letter-spacing:-1px!important
 .slider-container {
 			position: relative;
 			height: 400px;
-			width: 800px;
+			width: 100%;
 			margin: 0 auto;
 			overflow: hidden;
 		}
@@ -1313,12 +1313,14 @@ h1  { font-size: 60px!important; line-height:55px; letter-spacing:-1px!important
 			top: 0;
 			left: 0;
 			height: 400px;
-			width: 800px;
+			width: 100%;
 			display: none;
 		}
 
 		.slide.active {
-			display: block;
+			display: flex;
+            justify-content: center;
+            align-items: center;
 		}
 
 		.prev, .next {
