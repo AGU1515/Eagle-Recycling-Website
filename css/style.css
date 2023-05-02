@@ -78,7 +78,7 @@ a {
 .marg-top-minus25 { margin-top: -25px; }
 
 /**** SECTION PADDINGS ****/
- #about, #team, #work, #price, #contact, #gallery { padding-top: 80px; background:#F0F0F0; }
+ #about, #team, #impact, #price, #contact, #gallery { padding-top: 80px; background:#F0F0F0; }
 section { background:#F0F0F0; }
 
 /** BUTTONS **/
@@ -1161,7 +1161,7 @@ ul.comments { list-style:none; margin:0; padding:0; }
 }
 .reply { font-size: 13px; }
 .date { color: #999;margin:-10px 0 10px 0; font-size:0.9em; }
-ul.comments div.comment-block p { margin 0; padding:0;}
+ul.comments div.comment-block p { margin: 0; padding:0;}
 ul.comments li { clear:both; padding:10px 0 0 115px; }
 div.avatar { margin-left:-115px; position:absolute; }
 
@@ -1301,55 +1301,55 @@ h1  { font-size: 60px!important; line-height:55px; letter-spacing:-1px!important
 }
 
 .slider-container {
-			position: relative;
-			height: 400px;
-			width: 100%;
-			margin: 0 auto;
-			overflow: hidden;
-		}
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
-		.slide {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 400px;
-			width: 100%;
-			display: none;
-		}
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    display: none;
+}
 
-		.slide.active {
-			display: flex;
-            justify-content: center;
-            align-items: center;
-		}
+.slide.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-		.prev, .next {
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-			padding: 20px;
-			color: white;
-			background-color: rgba(0, 0, 0, 0.5);
-			cursor: pointer;
-		}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
 
-		.prev {
-			left: 0;
-		}
+.prev {
+    left: 0;
+}
 
-		.next {
-			right: 0;
-		}
+.next {
+    right: 0;
+}
 
-		.caption {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			background-color: rgba(0, 0, 0, 0.5);
-			color: white;
-			padding: 10px;
-			font-size: 20px;
-			text-align: center;
-			box-sizing: border-box;
-		}
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
